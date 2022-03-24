@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Currency Exchange</h1>
+    From: <p data-th-text="${fromCurrency}+' '+ ${fromInitialAmount}"></p>
+    <br/>
+    To: <p data-th-text="${toCurrency}+' '+ ${result}"></p>
+    <br/>
+    <form action="/" class="inline">
+        <button class="float-left submit-button" >Back</button>
+    </form>
+</body>
+</html>
